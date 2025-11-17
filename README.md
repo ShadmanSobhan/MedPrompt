@@ -1,5 +1,5 @@
 # 🧠 MedPrompt  
-### **LLM–CNN Fusion with Dynamic Weight Routing for Medical Image Segmentation & Classification**
+### **LLM-CNN Fusion with Weight Routing for Medical Image Segmentation and Classification**
 
 MedPrompt is a unified, prompt-driven medical image analysis framework that fuses a **few-shot Prompted Large Language Model** with a lightweight yet powerful CNN architecture (**DeepFusionLab**) to perform **segmentation** and **classification** directly from **natural language instructions**.
 
