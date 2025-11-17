@@ -90,3 +90,28 @@ MedPrompt
 ├── segmentation-training-for-deepfusionlab.ipynb # Notebook on how to train DeepFusionLab on Segmentation Datasets
 
 
+## 📂 Datasets & Weights
+
+### 🔸 **Dataset (Part 1)**
+A portion of the training dataset is available on Kaggle:  
+➡️ **[Combined Dataset – Part 1](https://www.kaggle.com/datasets/shadmansobhan/combined-dataset-pt1)**
+
+---
+
+### 🔸 **Pretrained Weights**
+You can download all pretrained classification and segmentation weights from:
+
+🔹 **Google Drive**  
+➡️ **[MedPrompt Weights (Drive Folder)](https://drive.google.com/drive/u/1/folders/1VqpHYSGnRD2avTNU5mvFB9Dj3cB6n9q7)**  
+
+🔹 **Kaggle**  
+➡️ **[Trained Weights (Kaggle Dataset)](https://www.kaggle.com/datasets/shadmansobhan/trained-weights)**
+
+---
+
+Feel free to integrate these resources into your pipeline or training workflow. 
+
+If you need any help, please mail me at:
+
+shadmansobhan1144@gmail.com
+
