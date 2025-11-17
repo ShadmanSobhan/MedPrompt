@@ -113,5 +113,5 @@ Feel free to integrate these resources into your pipeline or training workflow.
 
 If you need any help, please mail me at:
 
-shadmansobhan1144@gmail.com
+shadmansobhan114@gmail.com
 
