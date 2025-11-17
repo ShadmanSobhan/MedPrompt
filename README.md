@@ -3,7 +3,9 @@
 
 MedPrompt is a unified, prompt-driven medical image analysis framework that fuses a **few-shot Prompted Large Language Model** with a lightweight yet powerful CNN architecture (**DeepFusionLab**) to perform **segmentation** and **classification** directly from **natural language instructions**.
 
-Unlike traditional medical AI systems that rely on numerous task-specific models, MedPrompt interprets your textual prompt, selects the appropriate pretrained weights, and executes multi-stage and conditional workflows—**without retraining**.
+Traditional medical AI systems are mostly task-specific; a model is typically capable of either classification or segmentation, and even then only for a single target organ or disease. Recently, interactive models and foundation models have emerged that are trained across many datasets and can segment multiple organs based on user prompts. However, these models remain limited in several ways: they are not designed for fully text-driven medical image segmentation, they cannot perform both classification and segmentation within the same unified framework, and their performance on individual tasks often lags behind well-optimized task-specific models. Furthermore, they lack the ability to interpret complex medical instructions, execute conditional logic, or dynamically choose the correct model for a given task.
+
+To overcome these limitations, we propose MedPrompt, a unified system that combines the power of LLM for text interpretation with the accuracy of CNN for image analysis. MedPrompt interprets natural-language instructions, constructs task pipelines, and uses dynamic weight routing to automatically select the appropriate pretrained models, enabling flexible, high-accuracy classification and segmentation from a single prompt.
 
 ---
 
