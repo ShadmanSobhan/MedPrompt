@@ -8,7 +8,7 @@ Unlike traditional medical AI systems that rely on numerous task-specific models
 ---
 
 <p align="center">
-  <img src="assets/Medprompt.jpg" width="85%" />
+  <img src="Medprompt.jpg" width="85%" />
 </p>
 
 ---
