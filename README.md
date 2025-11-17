@@ -1,7 +1,7 @@
 # 🧠 MedPrompt  
 ### **LLM–CNN Fusion with Dynamic Weight Routing for Medical Image Segmentation & Classification**
 
-MedPrompt is a unified, prompt-driven medical image analysis framework that fuses a **few-shot Large Language Model (LLaMA-4-17B)** with a lightweight yet powerful CNN architecture (**DeepFusionLab**) to perform **segmentation** and **classification** directly from **natural language instructions**.
+MedPrompt is a unified, prompt-driven medical image analysis framework that fuses a **few-shot Prompted Large Language Model** with a lightweight yet powerful CNN architecture (**DeepFusionLab**) to perform **segmentation** and **classification** directly from **natural language instructions**.
 
 Unlike traditional medical AI systems that rely on numerous task-specific models, MedPrompt interprets your textual prompt, selects the appropriate pretrained weights, and executes multi-stage and conditional workflows—**without retraining**.
 
@@ -13,11 +13,18 @@ Unlike traditional medical AI systems that rely on numerous task-specific models
 
 ---
 
+<p align="center">
+  <img src="MedPrompt_Response.png" width="85%" />
+</p>
+
+---
+
+
 ## 🚀 Key Features
 
 ### 🔹 **1. Natural Language → Structured Workflow**
 MedPrompt automatically:
-- Parses user prompts  
+- Parses users' text prompts  
 - Detects intent (classification / segmentation)  
 - Normalizes targets (e.g., lung, retina, TB, pneumonia)  
 - Generates JSON-based task pipelines  
@@ -45,15 +52,8 @@ DeepFusionLab supports:
 - **Classification** (mode = 0)  
 - **Segmentation** (mode = 1)  
 
-It includes:
-- EfficientNet-B0 encoder  
-- ASPP multi-scale context module  
-- MFF (Multi-Feature Fusion)  
-- Lightweight decoder  
-- CAFSE attention refinement  
-
 <p align="center">
-  <img src="assets/deepfusionlab.png" width="85%">
+  <img src="DeepFusionLab.jpg" width="85%" />
 </p>
 
 ---
@@ -62,18 +62,17 @@ It includes:
 
 | Task | Performance |
 |------|-------------|
-| Lung Segmentation | **Dice ≈ 0.986** |
-| TB Classification | **F1 ≈ 0.974** |
-| Polyp Segmentation | **Dice ≈ 0.945** |
-| Retinal Vessel Segmentation | **Dice ≈ 0.811** |
-| COVID-19 Classification | **Acc ≈ 0.997** |
+| Lung Segmentation | **Dice ≈ 0.9856** |
+| TB Classification | **F1 ≈ 0.9744** |
+| Polyp Segmentation | **Dice ≈ 0.9451** |
+| Retinal Vessel Segmentation | **Dice ≈ 0.8106** |
+| COVID-19 Classification | **Acc ≈ 0.9969** |
 
 ---
 
 ## 🔹 **5. Fast & Deployment-Ready**
 - **97%** prompt-interpretation correctness  
-- **~2.5s** CPU end-to-end latency  
-- Runs efficiently in low-resource environments  
+- **~2.5s** CPU end-to-end latency (LLM is called from Groq) 
 
 ---
 
