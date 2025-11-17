@@ -79,7 +79,8 @@ DeepFusionLab supports:
 ---
 
 # 📁 Repository Structure
-MedPrompt/
+MedPrompt
+
 │
 
 ├── classification-training-for-deepfusionlab.ipynb # Notebook on how to train DeepFusionLab on Classification Datasets
