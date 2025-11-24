@@ -137,4 +137,5 @@ Please cite the article by
 
 The article is published by Biomedical Signal Processing & Control. You can read it from here: 
 
-➡️ **[MedPrompt: LLM-CNN Fusion with Weight Routing for Medical Image Segmentation and Classification]([(https://www.sciencedirect.com/science/article/pii/S1746809425017628)]**  
+➡️ **[MedPrompt: LLM-CNN Fusion with Weight Routing for Medical Image Segmentation and Classification](https://www.sciencedirect.com/science/article/pii/S1746809425017628)**
+
