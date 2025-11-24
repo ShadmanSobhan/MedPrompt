@@ -116,12 +116,23 @@ If you need any help, please mail me at:
 shadmansobhan114@gmail.com
 
 Please cite the article by
+
 @article{sobhan2026medprompt,
+
   title={MedPrompt: LLM--CNN Fusion with Weight Routing for Medical Image Segmentation and Classification},
+  
   author={Sobhan, Shadman and Mahmud, Kazi Abrar and Zami, Abduz and Ahmed, Mohiuddin and Uddin, Md Palash},
+  
   journal={Biomedical Signal Processing and Control},
+  
   volume={113},
+  
   pages={109251},
+  
   year={2026},
+  
   publisher={Elsevier}
+  
 }
+
+The article is published by Biomedical Signal Processing & Control. You can read it from here: 
